@@ -10,3 +10,8 @@
 4. Creating a room id
     Terminal : "npm install uuid" to install universal unique ID.
     Import uuid to create unique id and make it appear on the URL using redirecting.
+5. View own video
+    Create "public" folder and inside a javascript file and import the file into ejs file.
+    Use express.static to serve static files to ejs
+    Create a div for video box in ejs
+    In script file for ejs, create a video stream and send it to ejs file.

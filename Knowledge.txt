@@ -8,3 +8,4 @@ view(html file)
 ejs=embedded JS. Used to communicate with frontend
 uuid is imported to generate universal unique ID.
 <%=variable%> to import template into ejs from node js
+Promise in JS represents eventual completion/failure of operation and its resulting value.
