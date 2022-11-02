@@ -6,3 +6,5 @@ express.js is  web framework for node.js
 view(html file)
 "views" folder in root directory contains all the views of the app
 ejs=embedded JS. Used to communicate with frontend
+uuid is imported to generate universal unique ID.
+<%=variable%> to import template into ejs from node js
