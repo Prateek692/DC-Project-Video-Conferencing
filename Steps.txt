@@ -4,3 +4,6 @@
 2. Initialize express project inside "server.js" file
     Terminal: "npm install nodemon" nodemon package to run nodejs server
             : "nodemon" server.js //Start nodejs app "server.js" onto localhost server
+3. Now we will create a view(html file)
+    Create a "views" folder and in this create a file for room(ejs file ejs=embedded JS).
+    Terminal : "npm install ejs" to install embedded js.

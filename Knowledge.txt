@@ -3,3 +3,6 @@
 express.js is  web framework for node.js
 "npm install nodemon" nodemon package to run nodejs server
 "nodemon" server.js //Start nodejs app "server.js" onto localhost server
+view(html file)
+"views" folder in root directory contains all the views of the app
+ejs=embedded JS. Used to communicate with frontend
