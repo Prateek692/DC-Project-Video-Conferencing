@@ -1,0 +1,5 @@
+"npm init" to create nodejs server
+"npm install express" to install express.js
+express.js is  web framework for node.js
+"npm install nodemon" nodemon package to run nodejs server
+"nodemon" server.js //Start nodejs app "server.js" onto localhost server

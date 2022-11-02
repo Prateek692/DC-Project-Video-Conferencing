@@ -1,0 +1,6 @@
+1. Create NodeJS server(we'll be using WebRTC)
+    Terminal: "npm init" to create nodejs server
+            : "npm install express" to install express.js
+2. Initialize express project inside "server.js" file
+    Terminal: "npm install nodemon" nodemon package to run nodejs server
+            : "nodemon" server.js //Start nodejs app "server.js" onto localhost server
