@@ -1,0 +1,13 @@
+"npm init" to create nodejs server
+"npm install express" to install express.js
+express.js is  web framework for node.js
+"npm install nodemon" nodemon package to run nodejs server
+"nodemon" server.js //Start nodejs app "server.js" onto localhost server
+view(html file)
+"views" folder in root directory contains all the views of the app
+ejs=embedded JS. Used to communicate with frontend
+uuid is imported to generate universal unique ID.
+<%=variable%> to import template into ejs from node js
+Promise in JS represents eventual completion/failure of operation and its resulting value.
+Socket.IO is an event-driven library for real-time web applications. It enables real-time, bi-directional communication between web clients and servers.
+PeerJS wraps the browser's WebRTC implementation to provide a complete, configurable, and easy-to-use peer-to-peer connection API

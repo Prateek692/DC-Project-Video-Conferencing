@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Conferencing</title>
     <link rel="stylesheet" href="style.css">             <!--imported css file-->
+    <script src="/socket.io/socket.io.js"></script> <!--imported socket.io-->
+    <script src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>   <!--imported peer js in frontend-->
     <script>
-        console.log("<%= roomId %>"); //Templated from nodejs application.
+        const ROOM_ID= "<%= roomId %>"; //Templated from nodejs application.
     </script>
 </head>
 <body>
+    <h1>Here is User's Video</h1>
     <div id="video-grid">  <!--video grid-->
 
     </div>
