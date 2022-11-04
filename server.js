@@ -27,6 +27,10 @@ io.on('connection',socket => {                  //Socket action when the user jo
         // console.log("joined the room");
         socket.join(roomId);
         socket.to(roomId).emit('user-connected',userId); //Acknowledges that user has successfully joined the room
+        socket.on('message',message => {
+            io.to(roomId).emit('createMessage',message)
+        })
+    
     })
 })
 
