@@ -34,4 +34,4 @@ io.on('connection',socket => {                  //Socket action when the user jo
     })
 })
 
-server.listen(3030); //Localhost port would be 3030
+server.listen(process.env.PORT||3030); //Localhost port would be 3030
